@@ -12,4 +12,4 @@ var r = request.post('http://localhost:3002/upload',
   })
 var form = r.form()
 //single file only under the same form-field name
-form.append('files', fs.createReadStream('./test-upload-files/httpRequest.md'))
+form.append('files', fs.createReadStream('./src/test-upload-files/httpRequest.md'))
